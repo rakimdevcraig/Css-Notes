@@ -1,0 +1,158 @@
+.one{
+    background-color:pink;
+    height:100px; 
+    width:48px;
+    list-style: none;
+    border:1px solid black;
+   }
+
+   .two{
+    background-color:lavender;
+    height:100px;
+    width:48px; 
+    border:1px solid black;
+    list-style: none;
+}
+
+.three{
+    background-color:peachpuff;
+    height:100px;
+    width:48px;
+    list-style: none;
+    border:1px solid black;
+}
+.one1{
+    background-color:pink;
+    list-style: none;
+    border:1px solid black;
+   }
+
+   .two2{
+    background-color:lavender;
+    border:1px solid black;
+    list-style: none;
+}
+.three3{
+    background-color:peachpuff;
+    list-style: none;
+    border:1px solid black;
+}
+
+.four4{
+    background-color:violet;
+    list-style: none;
+    border:1px solid black;
+}
+
+.four{
+    background-color:violet;
+    height:100px;
+    width:48px;
+    list-style: none;
+    border:1px solid black;
+}
+
+.one11{
+    background-color:pink;
+    list-style: none;
+    border:1px solid black;
+    padding-bottom: 5px;
+   }
+
+   .two22{
+    background-color:lavender;
+    border:1px solid black;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.three33{
+    background-color:peachpuff;
+    list-style: none;
+    border:1px solid black;
+    font-size:24px;
+}
+
+.four44{
+    background-color:violet;
+    list-style: none;
+    border:1px solid black;
+    padding-top: 5px;
+}
+
+.wrapper1{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper2{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper3{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper4{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper5{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper6{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper7{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    align-items: flex-start;
+    height:200px;
+}
+
+.wrapper8{
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper9{
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    height:200px;
+}
+
+.wrapper10{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    height:200px;
+}
