@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+  }
+  
+  html,
+  body {
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Add styles here! */
+  .max-width-wrapper{
+	/* margin: auto; */
+	 padding-left: 128px; 
+	 padding-top: 32px; 
+	 padding-bottom: 32px;
+	/* margin-left: 128px;
+	margin-top: 128px;
+	margin-bottom: 128px; */
+  }
+
+  strong{
+	color:hsl(160deg, 100%, 30%);  
+}
+
+main{
+	background: hsl(0deg, 0%, 40%);
+}
+
+.card{
+	background: white;
+}
+
+.indented-heading{
+	background: hsl(45deg, 100%, 50%);
+	margin-left: -32px;
+}

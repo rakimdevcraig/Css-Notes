@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Margin</title>
+    </head>
+    <body>
+        <h1>Margin creates spaces around an element giving it breathing room. It can pull an
+            element outside of a parent or center itself in a container
+        </h1>
+        <h1>Margin is meant to increase the distance between siblings. It is not meant to increase the gap between a child and its parent's bounding box; that's what padding is for.</h1>
+        <section class="section1">
+            <h1 class="section1p">Section 1 with no margin</h1>
+        </section>
+        <section class="section2">
+            <h1 class="section1p">Section 2 with no margin</h1>
+        </section>
+        <section class="section3">
+            <h1 class="section1p">Section 3 WITH margin</h1>
+        </section>
+        <section class="section4">
+            <h1 class="section1p">Section 4 with no margin</h1>
+        </section>
+        <h1>Negative Margin</h1>
+        <p>A negative margin can pull an element outside it's parent</p>
+        <section class="negative-section">
+            <div class="blue-box">With a negative margin-top and margin-left this element broke out of the parent to the top and to the left</div>
+        </section>
+        <h1>Negative margins can also pull an element's sibling closer</h1>
+        <main>
+            <div class="green-box"></div>
+            <div class="neighbor">This box got pulled closer because the above element has a negative margin-bottom</div>
+          </main>
+        <script src="index.js"></script>
+    </body>
+</html>

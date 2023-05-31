@@ -1,0 +1,16 @@
+section {
+	width: 150px;
+}
+
+p {
+	width: 100%;
+	padding: 16px;
+	border: 2px solid;
+}
+
+h3 {
+	width: 100%;
+	padding: 16px;
+	border: 2px solid;
+	box-sizing: border-box;
+}

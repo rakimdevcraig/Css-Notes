@@ -1,0 +1,43 @@
+.wrapper1{
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+}
+
+.wrapper2{
+    display: flex;
+    border:1px solid black;
+    flex-direction: column;
+}
+
+.one{
+ background-color:pink;
+ height:100px;
+ width:48px;
+ list-style: none;
+ border:1px solid black;
+}
+
+.two{
+    background-color:lavender;
+    height:100px;
+    width:48px;
+    border:1px solid black;
+    list-style: none;
+}
+
+.three{
+    background-color:peachpuff;
+    height:100px;
+    width:48px;
+    list-style: none;
+    border:1px solid black;
+}
+
+.four{
+    background-color:violet;
+    height:100px;
+    list-style: none;
+    width:48px;
+    border:1px solid black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Margin 2</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="card">
+                <p>
+                    Here we have an image with text that is centered due to the padding but maybe 
+                    we don't want this image to be centered we want it to hit the edges of the container
+                </p>
+                <img alt="tatum" src="img/jtgm7.jpeg"/>
+                <p>
+                    More importantly, otters are glorious water dogs, playful and curious. The otter, no other, is the best animal.
+                  </p>
+            </div>
+            <div class="card">
+                <p>
+                    Here we use -margin left and right to bring the content (image) closer to it's parent element but only the margin left will work so we won't be able to stretch the image to fit the container
+                </p>
+                <img class="pic2" alt="tatum" src="img/jtgm7.jpeg"/>
+                <p>
+                    More importantly, otters are glorious water dogs, playful and curious. The otter, no other, is the best animal.
+                  </p>
+            </div>
+            <div class="card">
+                <p>
+                    We can solve this by wrapping the image in a container (or simply a div in other words) and putting the margin left & right on the container and keeping the image to 100% width to fill the container
+                </p>
+                <div class="stretched-out">
+                    <img class="img3" alt="tatum" src="img/jtgm7.jpeg"/>
+                </div>
+                <p>
+                    More importantly, otters are glorious water dogs, playful and curious. The otter, no other, is the best animal.
+                  </p>
+            </div>
+        </body>
+    </html>

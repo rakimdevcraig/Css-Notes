@@ -1,0 +1,60 @@
+.section1 {
+	background: cadetblue;
+	border: 1px solid;
+	padding: 32px;
+}
+
+.section2 {
+	background: red;
+	border: 1px solid;
+	padding: 32px;
+}
+
+.section3 {
+	background: violet;
+	border: 1px solid;
+	padding: 32px;
+	margin: 8px;
+}
+
+.section4 {
+	background: red;
+	border: 1px solid;
+	padding: 32px;
+}
+
+.negative-section{
+	width:400px;
+	height:300px;
+	border:3px solid
+}
+
+.blue-box{
+	background: white;
+	border:3px solid blue;
+	height:50%;
+	width:50%;
+	margin-top:-16px;
+	margin-left:-16px;
+}
+
+main {
+	width: 200px;
+	height: 200px;
+	border: 3px solid;
+  }
+  
+  .green-box {
+	width: 50%;
+	height: 50%;
+	border: 3px solid green;
+	background: white;
+    margin-bottom: -32px;
+  }
+  
+  .neighbor {
+	width: 50%;
+	height: 50%;
+	background: silver;
+	margin-left: 16px;
+  }

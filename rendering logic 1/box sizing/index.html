@@ -1,0 +1,32 @@
+<html lang = "en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Sizing</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section>
+            <p>Hello World</p>
+        </section>
+        <h1>If we inspect the P we will see that it not only takes up the 150px
+            that the section takes up but it also 36 more pixels for the margin
+            and the border. This is because we have no box sizing option on so if
+            a margin and border are set and width is at 100% it can have more width than
+            it's parent element which we don't want
+        </h1>
+        <h2>Down below we will make another section with the same properties 
+            but we will add box sizing border box and it will make the content with border,
+            padding fit inside of the containter</h2>
+        <section>
+            <h3>Hello World</h3>
+        </section>
+        <h2>If we inspect the H3 here we will see the width of it is 150 instead of 186 like the P above</h2>
+    </body>
+
+
+
+
+</html>
+
