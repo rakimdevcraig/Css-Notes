@@ -1,0 +1,38 @@
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    height:50vh;
+    border:1px solid
+}
+
+.grow{
+    flex-grow:1;
+}
+
+.one{
+    height:100%;
+    background:lavender
+}
+
+.two{
+    height:100%;
+    background:greenyellow;
+}
+
+.three{
+    height:100%;
+    background:palevioletred
+}
+
+.four{
+    height:100%;
+    background: goldenrod;
+}
+
+.qtr{
+    width:25%;   
+}
+
+.flex{
+    flex:1;
+}

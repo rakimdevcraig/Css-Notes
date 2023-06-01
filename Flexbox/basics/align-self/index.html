@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Align Self</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Align self:allows you to override the align items property. In this chat interface we have the items all aligned to the left or flex-start. But if we want to move specific items to the right we can override align-items with align-self</h1>
+        <ol>
+            <li class="message sent">
+              Can you get me a big salad?
+            </li>
+            <li class="message received">
+              What big salad? I'm going to the coffee shop.
+            </li>
+            <li class="message sent">
+              They have big salads.
+            </li>
+            <li class="message received">
+              I've never seen a big salad.
+            </li>
+            <li class="message sent">
+              They have a big salad.
+            </li>
+            <li class="message received">
+              Is that what I ask for?
+            </li>
+            <li class="message received">
+              The <em>BIG</em> salad?
+            </li>
+          </ol>
+          <h1>With Align-self on the received message we get to override align-items:flex-start and move them out of the natural flow to the right with align-self:flex-end</h1>
+          <ol>
+            <li class="message sent">
+              Can you get me a big salad?
+            </li>
+            <li class="message received1">
+              What big salad? I'm going to the coffee shop.
+            </li>
+            <li class="message sent">
+              They have big salads.
+            </li>
+            <li class="message received1">
+              I've never seen a big salad.
+            </li>
+            <li class="message sent">
+              They have a big salad.
+            </li>
+            <li class="message received1">
+              Is that what I ask for?
+            </li>
+            <li class="message received1">
+              The <em>BIG</em> salad?
+            </li>
+          </ol>
+    </body>
+    <script src="index.js"></script>
+</html>

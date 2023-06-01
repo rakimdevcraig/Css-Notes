@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Growing & Shrinking</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>flex-grow determines how much space that child takes up in the container.if all items have flex-grow set to 1, every child will set to an equal size inside the container. If you were to give one of the children a value of 2, 
+            that child would take up twice as much space as the others.</h1>
+        <span>With no flex-grow we have a bunch of white space</span>
+        <div class="wrapper">
+            <div class="one">ONE</div>
+            <div class="two">TWO</div>
+        </div>
+        <span>With flex-grow:1 on the first element it grows to take up all of the empty space in the container</span>
+        <div class="wrapper">
+            <div class="grow one">Flex-grow:1 is on this element now</div>
+            <div class="two">TWO</div>
+        </div>
+        <div class="wrapper">
+            <div class="grow one qtr">25%width Even though this has flex-grow:1 like the same div above it flex-grow doesn't do anything because each of these take up 25% of the space leaving no empty space to grow into</div>
+            <div class="two qtr">25%width</div>
+            <div class="three qtr">25%width</div>
+            <div class="four qtr">25%width</div>
+        </div>
+        <span>Where does flex: come in?</span>
+        <span>If we have 2 children of diff sizes and want to make them the same size</span>
+        <div class="wrapper">
+            <div class="one">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <div class="two">TWO</div>
+        </div>
+        <span>so we put flex-grow:1 on them and as you can see the one of the left is bigger than the one on the right</span>
+        <div class="wrapper">
+            <div class="one grow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <div class="two grow">TWO</div>
+        </div>
+        <span>flex:1 makes the flex-grow:1 and the flex-basis:0px that gives u the whole container to grow into so they both grow evenly cause they have a flex-grow:1</span>
+        <div class="wrapper">
+            <div class="one flex">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <div class="two flex">TWO</div>
+        </div>
+        <span>This can also be achieved by giving each child flex-grow:1 and flex-basis:0px or width:0px; but the proper way to do it is just flex:1 and it's easier/less code</span>
+    </body>
+    <script src="index.js"></script>
+</html>
+

@@ -1,0 +1,34 @@
+html, body{
+    height:100%;
+  }
+  
+  ol{
+    display:flex;
+    flex-direction:column;
+    list-style:none;
+    align-items:flex-start;
+    justify-content:flex-end;
+    height:100%;
+  }
+  
+  .message{
+    padding:16px;
+    margin:8px;
+    border-radius:6px;
+  }
+  
+  .sent{
+    background:blue;
+    color:white;
+  }
+  
+  .received{
+    background:hsl(0deg 0% 90%);
+  }
+
+  .received1{
+    background:hsl(0deg 0% 90%);
+    align-self:flex-end;
+  }
+  
+  
