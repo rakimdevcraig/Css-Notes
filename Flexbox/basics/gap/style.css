@@ -1,0 +1,32 @@
+.nav{
+    display:flex;
+    gap:8px;
+    
+  }
+  
+  .nav2{
+    display:flex;
+  }
+  
+  .anchor{
+  margin-right:auto;
+  }
+  
+  .favorite{
+    margin-left:8px;
+  }
+  
+  .spacer{
+    min-width:8px;
+  }
+
+  .mright{
+    margin-right:auto;
+  }
+
+  .mleft{
+    margin-left:auto;
+  }
+  .test-div{
+    display:flex;
+  }

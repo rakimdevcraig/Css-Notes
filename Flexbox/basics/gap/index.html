@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Gap</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="anchor" href="https://google.com">Website</a>
+            <button type="button">
+                Log in
+          </button>
+          <button type="button">
+              Sign up
+          </button>
+          </nav>
+          <span>We use gap:8px on the container here to make an 8px gap beween the login and signup buttons</span>
+          
+          <nav class="nav2">
+            <a class="anchor" href="https://google.com">Website</a>
+            <button class="favorite styled"
+                  type="button">
+                Log in
+          </button>
+          <button class="favorite styled"
+                  type="button">
+              Sign up
+          </button>
+          </nav>
+          <span>We use margin-left:8px on the button element to achieve the same thing</span>
+          <nav class="nav2">
+            <a class="anchor" href="https://google.com">Website</a>
+            <button class=""
+                  type="button">
+                Log in
+          </button>
+            <div class="spacer"></div>
+          <button class=""
+                  type="button">
+              Sign up
+          </button>
+          </nav>
+          <span>or we can use a spacer(blank div) with a min-width:8px and the spacer will take up that space</span>
+          <h1>Margin-auto:When we set margin-left or right to auto it will take up all the space to that side</h1>
+          
+          <div class="test-div">
+            <a class="mright" href="google.com">margin-right:auto</a>
+            <button>test</button>
+            <button>test</button>
+          </div>
+        <span>With margin-right:auto on inside of a flex container it will take up all the available space to the right and push any elements far right</span>
+        <div class="test-div">
+            <a class="mleft" href="google.com">margin-left:auto</a>
+            <button>test</button>
+            <button>test</button>
+          </div>
+          <span>with margin-left:auto all the space to left will be taken up and even our element will be pushed left</span>
+    </body>
+    <script src="index.js"></script>
+</html>
