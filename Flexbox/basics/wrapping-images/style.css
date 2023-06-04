@@ -1,0 +1,20 @@
+.wrapper1{
+    display:flex;
+}
+
+.shoeWrapper1{
+    width:275px;
+}
+
+.img1{
+    width:100%;
+}
+
+.wrapper2{
+    display:flex;
+    flex-wrap:wrap;
+}
+.shoeWrapper2{
+    width:300px;
+}
+

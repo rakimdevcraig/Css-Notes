@@ -1,0 +1,32 @@
+body{
+    background:silver;
+  }
+  
+  main{
+    display:flex;
+  }
+  
+  .wrap{
+    flex-wrap:wrap;
+  }
+
+   img{
+    width:100%;
+    border-radius:5px;
+  }
+  
+  article{
+    margin:5px;
+    border-radius:5px;
+    background:white;
+    flex:1 1 450px;
+  }
+  
+  section{
+    padding:5px;
+  }
+
+  .wrap1{
+    display:flex;
+    flex-wrap:wrap;
+}
