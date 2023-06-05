@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <div class="wrapper">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+   </div>
+
+   <h2>With no flex-shrink on as the screen or container gets smaller all of these items shrink at a similar rate</h2>
+   <div class="wrapper2">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+   </div>
+
+    <h2>with flex-shrink at 0 the middle box doesnt shrink at all</h2>
+   <div class="wrapper2">
+    <div class="box1"></div>
+    <div class="shrink0">flex-shrink:0</div>
+    <div class="box3"></div>
+   </div>
+
+   <h2>flex-shrink:1; is the default behavior so they all shrink the same. If 0 was the default items would never shrink</h2>
+   <div class="wrapper2">
+    <div class="box1"></div>
+    <div class="shrink1">flex-shrink:1</div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+   </div>
+
+   <h2>flex-shrink:2 so the 2 middle ones shrink at twice the rate of the outer ones</h2>
+   <div class="wrapper2">
+    <div class="box1"></div>
+    <div class="shrink2">flex-shrink:2</div>
+    <div class="shrink3">flex-shrink:2</div>
+    <div class="box4"></div>
+   </div>
+
+   <h1>How default shrinking works</h1>
+   <span>All of these items have flex-shrink:0 so they break out of the container and expand as wide as the content</span>
+   <div class="bigWrapper">
+    <div class="item">
+        <h1>fun stuff</h1>
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
+    </div>
+    <div class="item">
+        <h1>fun stuff</h1>
+        <h1>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</h1>
+    </div>
+    <div class="item">
+        <h1>wider than other</h1>
+        <h1>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown</h1>
+    </div>
+   </div>
+   <h1>With flex-shrink:1 or no flex shrink set and it's 
+    at default the items will shrink to try and fit inside of the container and not 
+    break out like the above example they can still shrink when the container gets
+    small enough and that's where we have wrapping at</h1>
+   <div class="bigWrapper">
+    <div class="item2">
+        <h1>fun stuff</h1>
+        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
+    </div>
+    <div class="item2">
+        <h1>fun stuff</h1>
+        <h1>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</h1>
+    </div>
+    <div class="item2">
+        <h1>wider than other</h1>
+        <h1>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown</h1>
+    </div>
+   </div>
+   
+</body>
+</html>
