@@ -1,12 +1,40 @@
-.wrapper{
-    display: flex;
+h2{
+    margin-top:8px;
+    margin-bottom:8px;
+}
+nav{
+    border:1px solid red;
 }
 
-p{
-    margin:8px;
+ul{
+    padding: 0;
 }
 
-li{
-    margin:8px;
+ul li{
     list-style: none;
+    border:1px solid
+}
+
+.nav-list1{
+    display:flex;
+}
+
+.nav2{
+    width:20vw;
+    border:1px solid;
+}
+
+.nav-list2{
+    display:flex;
+
+}
+
+.nav3{
+    width:10vw;
+    border:1px solid;
+}
+
+.nav-list3{
+    display:flex;
+
 }

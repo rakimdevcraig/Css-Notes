@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Here we have a list of items that are block elements by default so they stack ontop of each and take up the whole width of their respective lines (as the border shows)</h1>
+        <nav>
+          <ul class="nav-list">
+            <li>Home</li>
+            <li>About</li>      
+            <li>Service Information</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+      <h2>With display-flex enabled the goal of flex items is to align on the same line and take up only 
+        enough space to fill the content in each item and stay on 1 line unless we specify otherwise(wrap,grow) 
+        Even though li's are block elements by default when they're in a flex container they behave like flex items and not block</h2>
+      <header>
+        <nav class="nav1">
+          <ul class="nav-list1">
+            <li>Home</li>
+            <li>About</li>      
+            <li>Service Information</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+
+      <h2>As the container gets smaller the content inside will come together if needed(service information)</h2>
+      <header>
+        <nav class="nav2">
+          <ul class="nav-list2">
+            <li>Home</li>
+            <li>About</li>      
+            <li>Service Information</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+<h2>If the container gets too small (aka screen getting smaller) the content will 
+    stay on the same line but break out the container
+    making you have to scroll sideways
+</h2>
+      <header>
+        <nav class="nav3">
+          <ul class="nav-list3">
+            <li>Home</li>
+            <li>About</li>      
+            <li>Service Information</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+</body>
+</html>
