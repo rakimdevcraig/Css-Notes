@@ -29,7 +29,7 @@
     <div class="wrapper2">
         <div class="item2">
             <h1>flex:1</h1>
-            <h1> flex:1 propery makes flex-shrink:1 flex:grow1 and flex-basis:0 and then since the boxes are 0px in width </h1>
+            <h1> flex:1 propery makes flex-shrink:1 flex:grow1 and flex-basis:0(by default it's auto) and then since the boxes are 0px in width </h1>
         </div>
         <div class="item2">
             <h1>flex:1</h1>
@@ -39,7 +39,22 @@
             <h1>flex:1</h1>
             <h1>So even if 1 item has way more content or text than the others it won't expand anymore because they start at 0 and grow at the same rate this is good if you want similar size cards or articles for something</h1>
         </div>
-    
+        </div>
+        <h1>if we use flex-grow:1 instead of using flex:1 we'll see the difference because flex-basis will be auto and as you see the 3rd item is much wider than the other 2 with the same amount of text as the div above</h1>
+        <div class="wrapper3">
+            <div class="item3">
+                <h1>flex-grow:1</h1>
+                <h1> when flex-grow:1 is set the items will fill their container according to the content and THEN grow to fill out any extra space which is diff from when flex:1 is set </h1>
+            </div>
+            <div class="item3">
+                <h1>flex-grow:1</h1>
+                <h1>As u see this one is much smaller than the other 2</h1>
+            </div>
+            <div class="item3">
+                <h1>flex-grow:1</h1>
+                <h1>So even if 1 item has way more content or text than the others it won't expand anymore because they start at 0 and grow at the same rate this is good if you want similar size cards or articles for something</h1>
+            </div>
+    </div>
     
     
     

@@ -24,3 +24,17 @@
     border:1px solid;
     flex:1;
 }
+
+.wrapper3{
+    display:flex;
+    flex-direction: row;
+    width:80vw;
+    border:2px solid red;
+}
+
+
+.item3{
+    background:lime;
+    border:1px solid;
+    flex-grow:1;
+}
